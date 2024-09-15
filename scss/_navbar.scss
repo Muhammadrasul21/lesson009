@@ -1,0 +1,100 @@
+.navbar {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px 0px;
+    }
+
+    &__logo {
+        img {
+            width: 110px;
+            height: 30px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        &__local {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ECFDF5;
+
+            i {
+                color: #047857;
+            }
+        }
+    }
+
+    &__location {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 10px;
+
+        select {
+            border: none;
+            outline: none;
+        }
+    }
+
+    &__admin {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        &__user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #047857;
+            background-color: rgba(221, 213, 213, 0.582);
+            padding: 4px 8px;
+            border-radius: 10px;
+        }
+
+        select {
+            outline: none;
+            border: none;
+            font-size: 20px;
+        }
+    }
+
+    &__call {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 10px;
+
+        &__icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ECFDF5;
+
+            i {
+                color: #047857;
+            }
+        }
+    }
+
+    &__delivery {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        background: #ECFDF5;
+        padding: 10px;
+        border-radius: 10px;
+        gap: 10px;
+    }
+}

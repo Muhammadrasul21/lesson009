@@ -1,0 +1,24 @@
+@media (max-width:1300px) {
+    .navbar{
+        &__delivery{
+            display: none;
+        }
+    }
+    
+}
+@media (max-width:1150px) {
+    .navbar{
+        &__call{
+            display: none;
+        }
+    }
+    
+}
+@media (max-width:990px) {
+    .navbar{
+        &__location{
+            display: none;
+        }
+    }
+    
+}
